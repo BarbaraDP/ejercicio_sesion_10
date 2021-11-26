@@ -1,0 +1,13 @@
+
+.responsive {
+    background-color: #008000;
+    width: 100%;
+    height: 600px;
+}
+
+@media screen AND (min-width:600px) {
+    .responsive{
+        background-color: #ff0000;
+        width: 100%;
+    }
+}
